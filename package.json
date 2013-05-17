@@ -1,0 +1,15 @@
+{
+  "name": "linestream",
+  "version": "0.1.0",
+  "description": "read text stream into line seperated stream",
+  "main": "linestream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "stream"
+  ],
+  "author": "soanld <yinshuiboy@gmail.com>",
+  "license": "BSD"
+}
