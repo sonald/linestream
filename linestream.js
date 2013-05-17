@@ -73,15 +73,3 @@ exports.createLineStream = function(filename) {
         fs.createReadStream(filename, {encoding: 'utf8', bufferSize: 2048})
     );
 };
-
-/// testing
-function test() {
-    var s = exports.createLineStream('linestream.js'),
-        cnt = 0;
-
-    s.on('data', function(line) {
-        process.stdout.write(getPlatformLineSep() + '[' + ++cnt + ']:');
-    });
-
-    s.pipe(process.stdout);
-}
