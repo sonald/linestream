@@ -6,10 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonald/linestream.git"
+  },
   "keywords": [
     "stream"
   ],
   "author": "soanld <yinshuiboy@gmail.com>",
-  "license": "BSD"
+  "license": "BSD",
+  "engines": {
+    "node": "> 0.6"
+  }
 }
