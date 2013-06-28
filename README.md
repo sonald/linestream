@@ -11,3 +11,9 @@ a simple stream filter to seperate text stream into lines
     });
 
     s.pipe(process.stdout);
+
+## todo
+
++ support line decoration
++ line filter
++ check if stream is valid
